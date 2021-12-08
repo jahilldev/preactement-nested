@@ -111,4 +111,8 @@ info-area .slot {
   border: 1px dashed #222;
   margin: 0 0 10px;
   padding: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
