@@ -32,6 +32,10 @@ info-area {
   margin-bottom: 20px;
   border-style: solid;
   border-width: 1px;
+
+  [slot] {
+    display: none;
+  }
 }
 
 /* -----------------------------------
