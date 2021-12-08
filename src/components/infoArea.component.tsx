@@ -7,6 +7,9 @@ import { h, Fragment } from 'preact';
  * -------------------------------- */
 
 interface IProps {
+  alertType: string;
+  titleValue: string;
+  messageValue: string;
   children: any;
 }
 
@@ -16,12 +19,12 @@ interface IProps {
  *
  * -------------------------------- */
 
-function InfoArea({ children }: IProps) {
+function InfoArea({ messageValue, titleValue, children }: IProps) {
   return (
     <Fragment>
-      <p>Message:</p>
-      <slot name="message">Example message</slot>
+      <h3 class="title">{titleValue}</h3>
       {children}
+      <div class="slot">{messageValue}</div>
     </Fragment>
   );
 }

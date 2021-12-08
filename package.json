@@ -17,6 +17,8 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "prettier": "^2.0.5",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.2.6",
     "typescript": "^3.6.3",
@@ -26,6 +28,6 @@
   },
   "dependencies": {
     "preact": "^10.6.2",
-    "preactement": "^1.4.7"
+    "preactement": "^1.6.0"
   }
 }

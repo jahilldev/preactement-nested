@@ -1,0 +1,90 @@
+/* -----------------------------------
+ *
+ * Colours
+ *
+ * -------------------------------- */
+
+$colour-info: #d3eeff;
+$colour-alert: #fa6b6b;
+
+/* -----------------------------------
+ *
+ * Main
+ *
+ * -------------------------------- */
+
+main {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* -----------------------------------
+ *
+ * Element
+ *
+ * -------------------------------- */
+
+info-area {
+  display: block;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* -----------------------------------
+ *
+ * Info
+ *
+ * -------------------------------- */
+
+info-area.info {
+  background-color: lighten($colour-info, 8%);
+  border-color: $colour-info;
+}
+
+/* -----------------------------------
+ *
+ * Alert
+ *
+ * -------------------------------- */
+
+info-area.alert {
+  background-color: lighten($colour-alert, 8%);
+  border-color: $colour-alert;
+}
+
+/* -----------------------------------
+ *
+ * Alert
+ *
+ * -------------------------------- */
+
+info-area .title {
+  margin: 0 0 10px;
+  color: #222;
+}
+
+/* -----------------------------------
+ *
+ * Text
+ *
+ * -------------------------------- */
+
+info-area .text {
+  margin: 0 0 10px;
+}
+
+/* -----------------------------------
+ *
+ * Slot
+ *
+ * -------------------------------- */
+
+info-area .slot {
+  border: 1px dashed #222;
+  margin: 0 0 10px;
+  padding: 5px;
+}
