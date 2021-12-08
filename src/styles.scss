@@ -63,7 +63,7 @@ info-area {
  * -------------------------------- */
 
 info-area.info {
-  background-color: lighten($colour-info, 8%);
+  background-color: lighten($colour-info, 6%);
   border-color: $colour-info;
 }
 
@@ -74,7 +74,7 @@ info-area.info {
  * -------------------------------- */
 
 info-area.alert {
-  background-color: lighten($colour-alert, 8%);
+  background-color: lighten($colour-alert, 12%);
   border-color: $colour-alert;
 }
 
