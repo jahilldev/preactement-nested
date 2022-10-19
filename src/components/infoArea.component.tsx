@@ -15,6 +15,14 @@ interface IProps {
 
 /* -----------------------------------
  *
+ * Components
+ *
+ * -------------------------------- */
+
+import { Button } from './button.component';
+
+/* -----------------------------------
+ *
  * Button
  *
  * -------------------------------- */
@@ -24,7 +32,7 @@ function InfoArea({ messageValue, titleValue, children }: IProps) {
     <Fragment>
       <h3 class="title">{titleValue}</h3>
       {children}
-      <div class="slot">{messageValue}</div>
+      <Button />
     </Fragment>
   );
 }
